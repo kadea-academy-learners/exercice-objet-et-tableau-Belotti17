@@ -8,7 +8,7 @@ const notes = [12, 8, 15, 9, 10];
 function averageNote(notes) {
   // Vérifie que notes est bien un tableau et qu'il n'est pas vide
   if (!Array.isArray(notes) || notes.length === 0) {
-    return "Échoué"; // Correction pour passer le test
+    return "Aucune note fournie";
   }
 
   // Initialisation d'une variable pour la somme
